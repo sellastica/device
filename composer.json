@@ -1,25 +1,23 @@
 {
-    "name": "sellastica/device",
+	"name": "sellastica/device",
 	"type": "project",
 	"homepage": "https://github.com/sellastica/device",
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Tomáš Krejčí",
-            "email": "tomas@differencemakers.cz"
-        }
-    ],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Tomáš Krejčí",
+			"email": "tomas@differencemakers.cz"
+		}
+	],
 	"require": {
 		"php": ">=7.1",
 		"ipub/mobile-detect": "~2.0"
 	},
 	"require-dev": {
-    },
+	},
 	"autoload": {
-        "psr-4": {
-            "Sellastica\\Device\\": "src/"
-        }
-    },
-	"minimum-stability": "dev",
-	"prefer-stable": true
+		"psr-4": {
+			"Sellastica\\Device\\": "src/"
+		}
+	}
 }
