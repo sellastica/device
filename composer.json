@@ -11,7 +11,7 @@
     ],
 	"require": {
 		"php": ">=7.1",
-		"ipub/mobile-detect": "^2.0.0"
+		"ipub/mobile-detect": "~2.0"
 	},
 	"require-dev": {
     },
@@ -19,5 +19,7 @@
         "psr-4": {
             "Sellastica\\Device\\": "src/"
         }
-    }
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }
